@@ -16,7 +16,7 @@ TARGET_OTA_ASSERT_DEVICE := dipper
 TARGET_FACE_UNLOCK_CAMERA_ID := 5
 
 # Kernel
-TARGET_KERNEL_CONFIG := extreme_dipper_defconfig
+TARGET_KERNEL_CONFIG := dipper_defconfig
 
 # NFC
 TARGET_USES_NQ_NFC := true
