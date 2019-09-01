@@ -36,6 +36,3 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 # Inherit from the proprietary version
 -include vendor/xiaomi/dipper/BoardConfigVendor.mk
 
-# Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_dipper
-TARGET_RECOVERY_DEVICE_MODULES := libinit_dipper
